@@ -48,3 +48,7 @@ a span:nth-child(2){
 a span:nth-child(2):hover{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 53%);
 }
+
+a span:nth-child(1):hover ~ span:nth-child(2){
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 50%);
+}
